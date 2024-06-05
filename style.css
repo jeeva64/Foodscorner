@@ -1,0 +1,61 @@
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .bg{
+            opacity:0.8;
+        }
+        #cart-img{
+            height:200px;
+            width:100%;
+        }
+        .cart-item{
+                max-height:450px;
+                padding:1%;
+                width:33%;
+                margin:1%;
+                border:1px solid black;
+                border-radius:10px;
+            }
+        #tit{
+            font-size: 70px;
+            font-weight: bold;
+            font-family: Times New Roman;
+            padding-left: 10%;
+        }
+        .heading{
+            text-decoration: underline;
+        }
+
+        #formv label{
+            font-size: xx-large;
+            color:white;
+        }
+
+        #formv input{
+            height:15%;
+            width: 50%;
+        }
+        .con{
+            background-image:linear-gradient(cyan,lavender,skyblue);
+            border:3px solid;
+            box-sizing:border-box;
+        }
+        footer{
+            height:auto;
+        }
+        .ftit:hover{
+            text-decoration: underline;
+        }
+        #navbar li{
+            display: inline;
+            font-size: large;
+        }
+        a{
+            font-size: x-large;
+            text-decoration: none;
+            color:darkviolet;
+        }
+        #navbar a:hover{
+            text-decoration: underline;
+        }
