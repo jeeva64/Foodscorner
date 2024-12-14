@@ -26,7 +26,7 @@ if res1==None:
                 cur.execute(q4)
                 con.commit()
         fromadd = "jeevajeevaloganathan977@gmail.com"
-        password = "yyyh bgac mlkp yfcm"
+        password = ""
         tadd = res2[1]
         subject="Hello {}! New Order".format(res2[0])
         body="Order from {}".format(res3[0])
