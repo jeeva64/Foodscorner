@@ -189,8 +189,8 @@ if sub!=None:
     q="""insert into details (Username,Password,Email,Mobile,Role)values('%s','%s','%s','%s','user') """%(name,pas,mail,phone)
     cur.execute(q)
     con.commit()
-    fromadd="jeevajeevaloganathan977@gmail.com"
-    password="yyyh bgac mlkp yfcm"
+    fromadd=""
+    password=""
     toadd=mail
     subject="Welcome {}".format(name)
     body="Hello {} .Welcome to the Foodscorner Community and waiting to serve you at anytime".format(name)
