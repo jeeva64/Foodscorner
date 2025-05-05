@@ -25,7 +25,7 @@ if res1==None:
                 q4="""insert into ordercart(Fid,Uid,Adminid,Quantity,Price,TotalPrice,PaymentMode) values('%s','%s','%s','%s','%s','%s','%s')"""%(i[0],i[1],i[2],i[3],i[4],i[5],"Cash on Delivery")
                 cur.execute(q4)
                 con.commit()
-        fromadd = "jeevajeevaloganathan977@gmail.com"
+        fromadd = ""
         password = ""
         tadd = res2[1]
         subject="Hello {}! New Order".format(res2[0])
